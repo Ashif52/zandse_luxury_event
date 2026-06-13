@@ -11,25 +11,27 @@ document.addEventListener('DOMContentLoaded', () => {
     const preloader = document.getElementById('preloader');
     const progressBar = document.querySelector('.loading-progress');
 
-    let progress = 0;
-    const preloadInterval = setInterval(() => {
-        progress += Math.floor(Math.random() * 12) + 5;
-        if (progress > 100) progress = 100;
-        if (progressBar) progressBar.style.width = `${progress}%`;
+    if (!preloader) {
+        initAllAnimations();
+    } else {
+        let progress = 0;
+        const preloadInterval = setInterval(() => {
+            progress += Math.floor(Math.random() * 12) + 5;
+            if (progress > 100) progress = 100;
+            if (progressBar) progressBar.style.width = `${progress}%`;
 
-        if (progress === 100) {
-            clearInterval(preloadInterval);
-            setTimeout(() => {
-                if (preloader) {
+            if (progress === 100) {
+                clearInterval(preloadInterval);
+                setTimeout(() => {
                     preloader.style.opacity = '0';
                     setTimeout(() => {
                         preloader.style.display = 'none';
                         initAllAnimations();
                     }, 1000);
-                }
-            }, 400);
-        }
-    }, 80);
+                }, 400);
+            }
+        }, 80);
+    }
 
     /* ========================================
        2. CUSTOM CURSOR
