@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Birthday Celebrations | ZANDSE Luxury Events</title>
+    <meta name="description" content="ZANDSE crafts unforgettable luxury birthday celebrations for kids, teens, and adults. Cinematic themes, golden décor, and bespoke experiences in Chennai.">
+    <meta name="keywords" content="birthday event planner, kids birthday party Chennai, milestone birthday celebration, luxury birthday party decor">
+    <meta name="author" content="ZANDSE">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.zandse.com/birthday.html">
+    <meta property="og:title" content="Birthday Celebrations | ZANDSE Luxury Events">
+    <meta property="og:description" content="ZANDSE crafts unforgettable luxury birthday celebrations for kids, teens, and adults. Cinematic themes, golden décor, and bespoke experiences in Chennai.">
+    <meta property="og:image" content="https://www.zandse.com/assets/birthday_hero.png">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://www.zandse.com/birthday.html">
+    <meta property="twitter:title" content="Birthday Celebrations | ZANDSE Luxury Events">
+    <meta property="twitter:description" content="ZANDSE crafts unforgettable luxury birthday celebrations for kids, teens, and adults. Cinematic themes, golden décor, and bespoke experiences in Chennai.">
+    <meta property="twitter:image" content="https://www.zandse.com/assets/birthday_hero.png">
+
+    <!-- Structured Data (Service) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Birthday Event Planning",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "ZANDSE Luxury Events",
+        "url": "https://www.zandse.com/"
+      },
+      "areaServed": "Chennai, Tamil Nadu, India",
+      "description": "Premium birthday celebration planning for kids, teens, and adults with custom themes, premium decor, and curated catering."
+    }
+    </script>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="pages.css">
+</head>
+<body>
+
+    <!-- Preloader -->
+    <div id="preloader">
+        <div class="preloader-content">
+            <div class="logo-font glint-text">ZANDSE</div>
+            <div class="loading-bar">
+                <div class="loading-progress"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Custom Cursor -->
+    <div class="custom-cursor"></div>
+    <div class="custom-cursor-follower"></div>
+
+    <!-- Scroll Progress -->
+    <div class="scroll-progress-container">
+        <div class="scroll-progress-bar" id="scrollProgress"></div>
+    </div>
+
+    <!-- Navbar -->
+    <nav id="navbar" class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo logo-font">ZANDSE</a>
+            <ul class="nav-links">
+                 <li><a href="index.html" class="nav-link">Home</a></li>
+                 <li><a href="index.html#about" class="nav-link">About</a></li>
+                 <li class="dropdown">
+                     <a href="index.html#services" class="nav-link">Services</a>
+                     <ul class="dropdown-menu">
+                         <li><a href="birthday.html">Birthdays</a></li>
+                         <li><a href="proposal.html">Proposals</a></li>
+                         <li><a href="babyshower.html">Baby Showers</a></li>
+                         <li><a href="reunion.html">Reunions</a></li>
+                     </ul>
+                 </li>
+                 <li><a href="index.html#portfolio" class="nav-link">Portfolio</a></li>
+                 <li><a href="#contact" class="btn-outline nav-cta">Let's Talk</a></li>
+             </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu">
+        <ul class="mobile-nav-links">
+            <li><a href="index.html" class="mobile-link">Home</a></li>
+            <li><a href="index.html#about" class="mobile-link">About</a></li>
+            <li><a href="index.html#services" class="mobile-link">Services</a></li>
+            <li><a href="index.html#portfolio" class="mobile-link">Portfolio</a></li>
+            <li><a href="#contact" class="mobile-link">Contact</a></li>
+        </ul>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="page-hero">
+        <div class="page-hero-bg" style="background-image: url('assets/birthday_hero.png');" data-speed="0.3"></div>
+        <div class="page-hero-overlay"></div>
+        <canvas id="particleCanvas"></canvas>
+
+        <div class="page-hero-content">
+            <span class="hero-tag">Birthday Celebrations</span>
+            <h1 class="hero-title split-text" data-text="Make Every Birthday Unforgettable">Make Every Birthday Unforgettable</h1>
+            <p class="hero-subtitle">From enchanting children's parties to sophisticated adult soirées, we transform your birthday vision into a golden, cinematic celebration.</p>
+            <div class="hero-buttons">
+                <a href="#contact" class="btn-primary magnetic-el"><span>Plan Your Celebration</span></a>
+                <a href="#services" class="btn-outline magnetic-el">Explore Packages</a>
+            </div>
+        </div>
+
+        <div class="scroll-indicator">
+            <span class="scroll-text">Scroll to Discover</span>
+            <div class="scroll-line"></div>
+        </div>
+    </section>
+
+    <!-- Stats Strip -->
+    <section class="stats-strip">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-item reveal-fade-up">
+                    <div class="stat-number" data-count="500" data-suffix="+">0</div>
+                    <div class="stat-label">Events Hosted</div>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat-item reveal-fade-up delay-1">
+                    <div class="stat-number" data-count="100" data-suffix="%">0</div>
+                    <div class="stat-label">Happy Clients</div>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat-item reveal-fade-up delay-2">
+                    <div class="stat-number" data-count="50" data-suffix="+">0</div>
+                    <div class="stat-label">Unique Themes</div>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat-item reveal-fade-up delay-3">
+                    <div class="stat-number" data-count="8" data-suffix="+">0</div>
+                    <div class="stat-label">Years Experience</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="page-about about section-padding">
+        <div class="container container-split">
+            <div class="about-text">
+                <h4 class="section-subtitle reveal-slide-in">The Birthday Experience</h4>
+                <h2 class="section-title reveal-slide-in delay-1">Where Dreams Meet Décor</h2>
+                <p class="section-desc reveal-slide-in delay-2">At ZANDSE, a birthday isn't just a party — it's an immersive experience. We fuse cinematic lighting, bespoke themes, and meticulous attention to detail to create celebrations that leave lasting impressions.</p>
+                <p class="section-desc reveal-slide-in delay-3">Whether it's a magical fairy-tale party for your little one or a glamorous black-tie affair for a milestone year, our creative directors craft every element with precision and passion.</p>
+                <a href="#contact" class="btn-text reveal-slide-in delay-4">Start Planning <span class="arrow">→</span></a>
+            </div>
+            <div class="about-image-wrapper reveal-mask">
+                <img src="assets/birthday_gallery1.png" alt="Luxury Birthday Setup" class="about-img floating-anim">
+                <div class="gold-border-decor"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us -->
+    <section class="page-why-us">
+        <div class="container">
+            <div class="section-header center reveal-fade-up">
+                <h4 class="section-subtitle">Why ZANDSE</h4>
+                <h2 class="section-title">The Difference We Make</h2>
+            </div>
+            <div class="why-us-grid stagger-children">
+                <div class="why-item reveal-fade-up">
+                    <div class="why-icon">🎨</div>
+                    <h3>Custom Themes</h3>
+                    <p>Every party is designed around your unique vision — no templates, only originals.</p>
+                </div>
+                <div class="why-item reveal-fade-up">
+                    <div class="why-icon">🌟</div>
+                    <h3>Premium Décor</h3>
+                    <p>Gold-accented setups, floral installations, and cinematic lighting that transform any venue.</p>
+                </div>
+                <div class="why-item reveal-fade-up">
+                    <div class="why-icon">🍰</div>
+                    <h3>Curated Catering</h3>
+                    <p>Artisanal cakes, gourmet menus, and bespoke dessert stations for every palate.</p>
+                </div>
+                <div class="why-item reveal-fade-up">
+                    <div class="why-icon">📸</div>
+                    <h3>Full Documentation</h3>
+                    <p>Professional photography & videography to capture every magical moment.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Carousel -->
+    <section id="services" class="services-carousel-section section-padding">
+        <div class="container">
+            <div class="section-header center reveal-fade-up">
+                <h4 class="section-subtitle">Our Expertise</h4>
+                <h2 class="section-title">Birthday Categories</h2>
+            </div>
+
+            <div class="carousel-wrapper">
+                <div class="services-carousel">
+                    <!-- Kids Birthday -->
+                    <div class="carousel-card tilt-card reveal-fade-up">
+                        <div class="carousel-card-inner">
+                            <div class="card-icon">🎈</div>
+                            <h3>Kids Birthday</h3>
+                            <p>Magical, age-appropriate celebrations with engaging entertainment.</p>
+                            <ul class="service-list">
+                                <li>Themed Balloon Décor</li>
+                                <li>Character Appearances</li>
+                                <li>Magic Shows & Puppetry</li>
+                                <li>Custom Cake & Treats Table</li>
+                                <li>Interactive Game Stations</li>
+                                <li>Return Gift Curation</li>
+                            </ul>
+                        </div>
+                        <div class="card-glow"></div>
+                    </div>
+
+                    <!-- Teen Birthday -->
+                    <div class="carousel-card tilt-card reveal-fade-up delay-1">
+                        <div class="carousel-card-inner">
+                            <div class="card-icon">🎵</div>
+                            <h3>Teen Birthday</h3>
+                            <p>Trendy, Instagrammable parties that your teen will love.</p>
+                            <ul class="service-list">
+                                <li>Neon & LED Themed Décor</li>
+                                <li>DJ & Dance Floor</li>
+                                <li>Photo Booth with Props</li>
+                                <li>Customized Selfie Walls</li>
+                                <li>Pool & Outdoor Party Options</li>
+                                <li>Themed Food & Beverage Stations</li>
+                            </ul>
+                        </div>
+                        <div class="card-glow"></div>
+                    </div>
+
+                    <!-- Adult Birthday -->
+                    <div class="carousel-card tilt-card reveal-fade-up delay-2">
+                        <div class="carousel-card-inner">
+                            <div class="card-icon">🥂</div>
+                            <h3>Adult Birthday</h3>
+                            <p>Sophisticated celebrations for milestone moments.</p>
+                            <ul class="service-list">
+                                <li>Black Tie & Cocktail Themes</li>
+                                <li>Live Band or Acoustic Sessions</li>
+                                <li>Premium Bar & Mixology</li>
+                                <li>Gourmet Dining Experience</li>
+                                <li>Cinematic Lighting Design</li>
+                                <li>VIP Lounge Sections</li>
+                            </ul>
+                        </div>
+                        <div class="card-glow"></div>
+                    </div>
+
+                    <!-- Special Themes -->
+                    <div class="carousel-card tilt-card reveal-fade-up delay-3">
+                        <div class="carousel-card-inner">
+                            <div class="card-icon">✨</div>
+                            <h3>Special Themes</h3>
+                            <p>Unique, imaginative themes that stand out from the ordinary.</p>
+                            <ul class="service-list">
+                                <li>Bollywood Night</li>
+                                <li>Hollywood Red Carpet</li>
+                                <li>Retro / Vintage Glam</li>
+                                <li>Tropical Paradise</li>
+                                <li>Masquerade Ball</li>
+                                <li>Casino Royale</li>
+                            </ul>
+                        </div>
+                        <div class="card-glow"></div>
+                    </div>
+                </div>
+
+                <div class="carousel-nav">
+                    <button class="carousel-nav-btn carousel-prev" aria-label="Previous">←</button>
+                    <button class="carousel-nav-btn carousel-next" aria-label="Next">→</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Popular Themes (Pill Cloud) -->
+    <section class="themes-section">
+        <div class="container">
+            <div class="section-header center reveal-fade-up">
+                <h4 class="section-subtitle">Trending</h4>
+                <h2 class="section-title">Popular Birthday Themes</h2>
+            </div>
+            <div class="themes-cloud stagger-children">
+                <div class="theme-pill reveal-fade-up"><span class="pill-icon">🦁</span> Jungle Safari</div>
+                <div class="theme-pill reveal-fade-up"><span class="pill-icon">👸</span> Royal Princess</div>
+                <div class="theme-pill reveal-fade-up"><span class="pill-icon">🦸</span> Superhero Universe</div>
+                <div class="theme-pill reveal-fade-up"><span class="pill-icon">🌊</span> Under The Sea</div>
+                <div class="theme-pill reveal-fade-up"><span class="pill-icon">🚀</span> Space Adventure</div>
+                <div class="theme-pill reveal-fade-up"><span class="pill-icon">🎪</span> Carnival Nights</div>
+                <div class="theme-pill reveal-fade-up"><span class="pill-icon">🏰</span> Enchanted Castle</div>
+                <div class="theme-pill reveal-fade-up"><span class="pill-icon">🎭</span> Masquerade Glam</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery -->
+    <section class="page-gallery section-padding">
+        <div class="container">
+            <div class="section-header center reveal-fade-up">
+                <h4 class="section-subtitle">Visual Heritage</h4>
+                <h2 class="section-title">Birthday Gallery</h2>
+            </div>
+            <div class="gallery-grid">
+                <div class="gallery-item reveal-scale-in">
+                    <img src="assets/birthday_gallery1.png" alt="Golden Birthday Setup">
+                    <div class="gallery-overlay">
+                        <h4>Golden Extravaganza</h4>
+                        <span>Adult Birthday</span>
+                    </div>
+                </div>
+                <div class="gallery-item reveal-scale-in delay-1">
+                    <img src="assets/birthday_gallery2.png" alt="Kids Birthday Decor">
+                    <div class="gallery-overlay">
+                        <h4>Enchanted Garden</h4>
+                        <span>Kids Birthday</span>
+                    </div>
+                </div>
+                <div class="gallery-item reveal-scale-in delay-2">
+                    <img src="assets/birthday_gallery3.png" alt="Teen Birthday Party">
+                    <div class="gallery-overlay">
+                        <h4>Neon Nights</h4>
+                        <span>Teen Birthday</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Lightbox -->
+    <div class="lightbox" id="lightbox">
+        <button class="lightbox-close" aria-label="Close">✕</button>
+        <img src="" alt="Gallery Image">
+    </div>
+
+    <!-- Testimonials -->
+    <section class="page-testimonials">
+        <div class="container">
+            <div class="section-header center reveal-fade-up">
+                <h4 class="section-subtitle">Client Stories</h4>
+                <h2 class="section-title">Words of Elegance</h2>
+            </div>
+
+            <div class="testimonial-container reveal-fade-up delay-1">
+                <div class="testimonial-track" id="testimonialTrack">
+                    <div class="testimonial-slide active">
+                        <div class="glass-card floating-anim">
+                            <div class="quote-icon">"</div>
+                            <p class="testimonial-text">ZANDSE turned my daughter's 5th birthday into a fairy-tale wonderland. The attention to detail was extraordinary — from the golden balloon arch to the custom cake. Every child was mesmerized!</p>
+                            <div class="testimonial-author">
+                                <h4>Priya & Arjun</h4>
+                                <span>Kids Birthday — Enchanted Garden Theme</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-slide">
+                        <div class="glass-card floating-anim">
+                            <div class="quote-icon">"</div>
+                            <p class="testimonial-text">My 30th birthday felt like a scene from a movie. The cinematic lighting, live band, and premium cocktail bar — ZANDSE made me feel like royalty on my special day.</p>
+                            <div class="testimonial-author">
+                                <h4>Vikram Menon</h4>
+                                <span>Milestone Birthday — Black Tie Affair</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-slide">
+                        <div class="glass-card floating-anim">
+                            <div class="quote-icon">"</div>
+                            <p class="testimonial-text">We surprised our teenager with a neon-themed pool party and she absolutely loved it! The photo booth, DJ setup, and themed food stations were all Instagram-worthy. Thank you ZANDSE!</p>
+                            <div class="testimonial-author">
+                                <h4>Meera Krishnan</h4>
+                                <span>Teen Birthday — Neon Pool Party</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="slider-controls">
+                    <button class="slide-btn prev-btn" id="prevSlide">←</button>
+                    <div class="slide-dots">
+                        <span class="dot active" data-index="0"></span>
+                        <span class="dot" data-index="1"></span>
+                        <span class="dot" data-index="2"></span>
+                    </div>
+                    <button class="slide-btn next-btn" id="nextSlide">→</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Packages -->
+    <section class="packages-section section-padding">
+        <div class="container">
+            <div class="section-header center reveal-fade-up">
+                <h4 class="section-subtitle">Pricing</h4>
+                <h2 class="section-title">Birthday Packages</h2>
+            </div>
+
+            <div class="packages-grid">
+                <!-- Basic -->
+                <div class="package-card tilt-card reveal-fade-up">
+                    <div class="package-name">Basic</div>
+                    <div class="package-price"><span class="currency">₹</span>25,000</div>
+                    <div class="package-note">Starting price · Up to 50 guests</div>
+                    <ul class="package-features">
+                        <li>Theme-Based Balloon Décor</li>
+                        <li>Basic Lighting Setup</li>
+                        <li>Welcome Board</li>
+                        <li>Background Music</li>
+                        <li>2-Hour Venue Coordination</li>
+                    </ul>
+                    <a href="#contact" class="btn-outline magnetic-el">Get Started</a>
+                </div>
+
+                <!-- Premium (Featured) -->
+                <div class="package-card featured tilt-card reveal-fade-up delay-1">
+                    <div class="package-name">Premium</div>
+                    <div class="package-price"><span class="currency">₹</span>75,000</div>
+                    <div class="package-note">Most popular · Up to 100 guests</div>
+                    <ul class="package-features">
+                        <li>Custom Theme Design & Décor</li>
+                        <li>Cinematic Lighting Design</li>
+                        <li>DJ / Live Entertainment</li>
+                        <li>Photo Booth with Props</li>
+                        <li>Professional Photography</li>
+                        <li>Dessert & Food Stations</li>
+                        <li>Full-Day Coordination</li>
+                    </ul>
+                    <a href="#contact" class="btn-primary magnetic-el"><span>Choose Premium</span></a>
+                </div>
+
+                <!-- Luxury -->
+                <div class="package-card tilt-card reveal-fade-up delay-2">
+                    <div class="package-name">Luxury</div>
+                    <div class="package-price"><span class="currency">₹</span>1,50,000</div>
+                    <div class="package-note">Ultimate experience · Unlimited guests</div>
+                    <ul class="package-features">
+                        <li>Everything in Premium</li>
+                        <li>Bespoke Venue Transformation</li>
+                        <li>Live Band / Celebrity Host</li>
+                        <li>Premium Bar & Mixology</li>
+                        <li>Drone Coverage</li>
+                        <li>Custom Invitations & RSVP</li>
+                        <li>VIP Guest Management</li>
+                        <li>Post-Event Highlight Reel</li>
+                    </ul>
+                    <a href="#contact" class="btn-outline magnetic-el">Go Luxury</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="faq-section">
+        <div class="container">
+            <div class="section-header center reveal-fade-up">
+                <h4 class="section-subtitle">Questions</h4>
+                <h2 class="section-title">Frequently Asked</h2>
+            </div>
+
+            <div class="faq-list">
+                <div class="faq-item reveal-fade-up">
+                    <button class="faq-question">
+                        How far in advance should I book a birthday celebration?
+                        <span class="faq-chevron">▼</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>We recommend booking at least 3–4 weeks in advance for standard events and 6–8 weeks for large-scale or highly customized celebrations. For peak season (October–January), earlier booking is advisable.</p>
+                    </div>
+                </div>
+                <div class="faq-item reveal-fade-up delay-1">
+                    <button class="faq-question">
+                        Can I customize the theme beyond your standard options?
+                        <span class="faq-chevron">▼</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Absolutely! Our creative directors specialize in bringing your unique vision to life. Whether it's a specific color palette, a fusion of themes, or a completely original concept — we design it from scratch just for you.</p>
+                    </div>
+                </div>
+                <div class="faq-item reveal-fade-up delay-2">
+                    <button class="faq-question">
+                        Do you handle venue selection and vendor coordination?
+                        <span class="faq-chevron">▼</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Yes, we offer end-to-end event management. This includes venue scouting, vendor negotiations, catering coordination, entertainment booking, and on-site execution — so you can enjoy the celebration stress-free.</p>
+                    </div>
+                </div>
+                <div class="faq-item reveal-fade-up delay-3">
+                    <button class="faq-question">
+                        What areas do you serve for birthday events?
+                        <span class="faq-chevron">▼</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>We primarily serve Chennai and the surrounding Tamil Nadu region. However, we also take on destination birthday events across India and internationally. Contact us for a custom quote.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="page-contact contact section-padding">
+        <div class="container container-split">
+            <div class="contact-info reveal-slide-in">
+                <h4 class="section-subtitle">Reach Out</h4>
+                <h2 class="section-title">Plan Your Birthday</h2>
+                <p class="section-desc">Connect with our luxury consultants to discuss your vision, preferred theme, and date availability.</p>
+
+                <div class="contact-details">
+                    <div class="contact-item">
+                        <span class="contact-icon">📍</span>
+                        <p>Chennai, Tamil Nadu</p>
+                    </div>
+                    <div class="contact-item">
+                        <span class="contact-icon">📞</span>
+                        <p>+91 97918 67356</p>
+                    </div>
+                    <div class="contact-item">
+                        <span class="contact-icon">✉️</span>
+                        <p>alcaswork2k25@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contact-form-wrapper reveal-slide-in delay-2">
+                <form id="contactForm" class="premium-form">
+                    <div class="form-group">
+                        <input type="text" id="name" class="form-control" required>
+                        <label for="name" class="floating-label">Full Name</label>
+                        <div class="form-line"></div>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" class="form-control" required>
+                        <label for="email" class="floating-label">Email Address</label>
+                        <div class="form-line"></div>
+                    </div>
+                    <div class="form-group">
+                        <select id="eventType" class="form-control" required>
+                            <option value="" disabled selected></option>
+                            <option value="kids">Kids Birthday</option>
+                            <option value="teen">Teen Birthday</option>
+                            <option value="adult">Adult Birthday</option>
+                            <option value="special">Special Theme</option>
+                        </select>
+                        <label for="eventType" class="floating-label select-label">Birthday Type</label>
+                        <div class="form-line"></div>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" class="form-control" rows="4" required></textarea>
+                        <label for="message" class="floating-label">Your Vision</label>
+                        <div class="form-line"></div>
+                    </div>
+                    <button type="submit" class="btn-primary full-width submit-btn">
+                        <span>Send Inquiry</span>
+                    </button>
+                    <div class="form-message" id="formMessage"></div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <canvas id="footerParticleCanvas"></canvas>
+        <div class="container">
+            <div class="footer-top">
+                <div class="footer-brand">
+                    <h2 class="logo-font glint-text">ZANDSE</h2>
+                    <p>Curators of luxury, unforgettable moments, and purely emotional experiences.</p>
+                </div>
+                <div class="footer-links">
+                    <h3>Explore</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="birthday.html">Birthdays</a></li>
+                        <li><a href="proposal.html">Proposals</a></li>
+                        <li><a href="babyshower.html">Baby Showers</a></li>
+                        <li><a href="reunion.html">Reunions</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h3>Connect</h3>
+                    <div class="social-icons">
+                        <a href="#" class="social-icon">In</a>
+                        <a href="#" class="social-icon">Fb</a>
+                        <a href="#" class="social-icon">Ig</a>
+                        <a href="#" class="social-icon">X</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 ZANDSE Luxury Events. All Rights Reserved.</p>
+                <div class="footer-legal">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="pages.js"></script>
+</body>
+</html>

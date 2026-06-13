@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Romantic Marriage Proposals | ZANDSE Luxury Events</title>
+    <meta name="description" content="ZANDSE designs, plans, and stages romantic, breathtaking marriage proposals. Private candlelight dining, beach sunset setups, and luxury rooftops in Chennai.">
+    <meta name="keywords" content="marriage proposal planner, romantic beach proposal Chennai, rooftop proposal setup, candlelight dinner planner">
+    <meta name="author" content="ZANDSE">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.zandse.com/proposal.html">
+    <meta property="og:title" content="Romantic Marriage Proposals | ZANDSE Luxury Events">
+    <meta property="og:description" content="ZANDSE designs, plans, and stages romantic, breathtaking marriage proposals. Private candlelight dining, beach sunset setups, and luxury rooftops in Chennai.">
+    <meta property="og:image" content="https://www.zandse.com/assets/proposal_hero.png">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://www.zandse.com/proposal.html">
+    <meta property="twitter:title" content="Romantic Marriage Proposals | ZANDSE Luxury Events">
+    <meta property="twitter:description" content="ZANDSE designs, plans, and stages romantic, breathtaking marriage proposals. Private candlelight dining, beach sunset setups, and luxury rooftops in Chennai.">
+    <meta property="twitter:image" content="https://www.zandse.com/assets/proposal_hero.png">
+
+    <!-- Structured Data (Service) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Marriage Proposal Event Planning",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "ZANDSE Luxury Events",
+        "url": "https://www.zandse.com/"
+      },
+      "areaServed": "Chennai, Tamil Nadu, India",
+      "description": "Bespoke romantic proposal stage designs, beach sunset setups, candlelight dining, and rooftop events with violinists and photography."
+    }
+    </script>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="pages.css">
+</head>
+<body>
+
+    <!-- Preloader -->
+    <div id="preloader">
+        <div class="preloader-content">
+            <div class="logo-font glint-text">ZANDSE</div>
+            <div class="loading-bar">
+                <div class="loading-progress"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Custom Cursor -->
+    <div class="custom-cursor"></div>
+    <div class="custom-cursor-follower"></div>
+
+    <!-- Scroll Progress -->
+    <div class="scroll-progress-container">
+        <div class="scroll-progress-bar" id="scrollProgress"></div>
+    </div>
+
+    <!-- Navbar -->
+    <nav id="navbar" class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo logo-font">ZANDSE</a>
+            <ul class="nav-links">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="index.html#about" class="nav-link">About</a></li>
+                <li class="dropdown">
+                    <a href="index.html#services" class="nav-link">Services</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="birthday.html">Birthdays</a></li>
+                        <li><a href="proposal.html">Proposals</a></li>
+                        <li><a href="babyshower.html">Baby Showers</a></li>
+                        <li><a href="reunion.html">Reunions</a></li>
+                    </ul>
+                </li>
+                <li><a href="index.html#portfolio" class="nav-link">Portfolio</a></li>
+                <li><a href="#contact" class="btn-outline nav-cta">Let's Talk</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu">
+        <ul class="mobile-nav-links">
+            <li><a href="index.html" class="mobile-link">Home</a></li>
+            <li><a href="index.html#about" class="mobile-link">About</a></li>
+            <li><a href="index.html#services" class="mobile-link">Services</a></li>
+            <li><a href="index.html#portfolio" class="mobile-link">Portfolio</a></li>
+            <li><a href="#contact" class="mobile-link">Contact</a></li>
+        </ul>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="page-hero">
+        <div class="page-hero-bg" style="background-image: url('assets/proposal_hero.png');" data-speed="0.3"></div>
+        <div class="page-hero-overlay"></div>
+        <canvas id="particleCanvas"></canvas>
+
+        <div class="page-hero-content">
+            <span class="hero-tag">Proposal Moments</span>
+            <h1 class="hero-title split-text" data-text="Create the Perfect Proposal Moment">Create the Perfect Proposal Moment</h1>
+            <p class="hero-subtitle">Bespoke romantic setups, candlelight dining, and breathtaking settings. We stage the dream beginning of your forever.</p>
+            <div class="hero-buttons">
+                <a href="#contact" class="btn-primary magnetic-el"><span>Plan Your Proposal</span></a>
+                <a href="#services" class="btn-outline magnetic-el">Explore Setups</a>
+            </div>
+        </div>
+
+        <div class="scroll-indicator">
+            <span class="scroll-text">Scroll to Discover</span>
+            <div class="scroll-line"></div>
+        </div>
+    </section>
+
+    <!-- Stats Strip -->
+    <section class="stats-strip">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-item reveal-fade-up">
+                    <div class="stat-number" data-count="100" data-suffix="+">0</div>
+                    <div class="stat-label">Proposals Staged</div>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat-item reveal-fade-up delay-1">
+                    <div class="stat-number" data-count="100" data-suffix="%">0</div>
+                    <div class="stat-label">"Yes" Rate</div>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat-item reveal-fade-up delay-2">
+                    <div class="stat-number" data-count="20" data-suffix="+">0</div>
+                    <div class="stat-label">Stunning Locations</div>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat-item reveal-fade-up delay-3">
+                    <div class="stat-number" data-count="5" data-suffix="+">0</div>
+                    <div class="stat-label">Years Experience</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="page-about about section-padding">
+        <div class="container container-split">
+            <div class="about-text">
+                <h4 class="section-subtitle reveal-slide-in">The Proposal Experience</h4>
+                <h2 class="section-title reveal-slide-in delay-1">Crafting Your Perfect Yes</h2>
+                <p class="section-desc reveal-slide-in delay-2">A marriage proposal is a milestone memory that will be told for generations. We design the setting to be as unique and breathtaking as your love story, taking care of every tiny detail from path-finding candles to violinists.</p>
+                <p class="section-desc reveal-slide-in delay-3">Whether it's an intimate beach setup beneath a golden sunset or a grand rooftop canopy under the stars, our creative directors customize every element to match your partner's dream.</p>
+                <a href="#contact" class="btn-text reveal-slide-in delay-4">Start Planning <span class="arrow">→</span></a>
+            </div>
+            <div class="about-image-wrapper reveal-mask">
+                <img src="assets/proposal_gallery1.png" alt="Romantic Proposal Setup" class="about-img floating-anim">
+                <div class="gold-border-decor"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us -->
+    <section class="page-why-us">
+        <div class="container">
+            <div class="section-header center reveal-fade-up">
+                <h4 class="section-subtitle">Why ZANDSE</h4>
+                <h2 class="section-title">The Romantic Touch</h2>
+            </div>
+            <div class="why-us-grid stagger-children">
+                <div class="why-item reveal-fade-up">
+                    <div class="why-icon">🎨</div>
+                    <h3>Custom Themes</h3>
+                    <p>Designed around your unique journey, ensuring a highly personalized proposal.</p>
+                </div>
+                <div class="why-item reveal-fade-up">
+                    <div class="why-icon">🌟</div>
+                    <h3>Premium Décor</h3>
+                    <p>Fairy lights, flower arches, glowing marquees, and velvet walkways.</p>
+                </div>
+                <div class="why-item reveal-fade-up">
+                    <div class="why-icon">🥂</div>
+                    <h3>Curated Catering</h3>
+                    <p>Champagne toasts, private chefs, and customized dessert spreads.</p>
+                </div>
+                <div class="why-item reveal-fade-up">
+                    <div class="why-icon">📸</div>
+                    <h3>Discrete Documentation</h3>
+                    <p>Hidden photographers and videographers to capture the genuine surprise.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Carousel -->
+    <section id="services" class="services-carousel-section section-padding">
+        <div class="container">
+            <div class="section-header center reveal-fade-up">
+                <h4 class="section-subtitle">Our Expertise</h4>
+                <h2 class="section-title">Proposal Categories</h2>
+            </div>
+
+            <div class="carousel-wrapper">
+                <div class="services-carousel">
+                    <!-- Candlelight Proposal -->
+                    <div class="carousel-card tilt-card reveal-fade-up">
+                        <div class="carousel-card-inner">
+                            <div class="card-icon">🕯️</div>
+                            <h3>Candlelight Dinner</h3>
+                            <p>An intimate setup surrounded by warm glowing paths.</p>
+                            <ul class="service-list">
+                                <li>Intimate Canopy Setup</li>
+                                <li>Violinist Performance</li>
+                                <li>Path-Finding Lanterns</li>
+                                <li>Custom Flower Centerpieces</li>
+                                <li>Private Dining Table</li>
+                                <li>Premium Bottle of Wine/Champagne</li>
+                            </ul>
+                        </div>
+                        <div class="card-glow"></div>
+                    </div>
+
+                    <!-- Beach Sunset Setup -->
+                    <div class="carousel-card tilt-card reveal-fade-up delay-1">
+                        <div class="carousel-card-inner">
+                            <div class="card-icon">🏖️</div>
+                            <h3>Beach Sunset</h3>
+                            <p>Stage the moment on a tranquil, golden shore.</p>
+                            <ul class="service-list">
+                                <li>Rustic Bohemian Arch</li>
+                                <li>Fairy Light Canopy</li>
+                                <li>Cozy Cabana Seating</li>
+                                <li>Ocean-Breeze Soundscape</li>
+                                <li>Rose Petal Walkway</li>
+                                <li>Gourmet High Tea Basket</li>
+                            </ul>
+                        </div>
+                        <div class="card-glow"></div>
+                    </div>
+
+                    <!-- Rooftop Under Stars -->
+                    <div class="carousel-card tilt-card reveal-fade-up delay-2">
+                        <div class="carousel-card-inner">
+                            <div class="card-icon">🌃</div>
+                            <h3>Rooftop Canopy</h3>
+                            <p>Propose with a backdrop of shimmering city lights.</p>
+                            <ul class="service-list">
+                                <li>Luminous Marquee Letters</li>
+                                <li>Geometric Floral Arcs</li>
+                                <li>LED Uplighting Design</li>
+                                <li>Plush Lounge Seating</li>
+                                <li>Private Waiter Service</li>
+                                <li>Discreet Photography Spot</li>
+                            </ul>
+                        </div>
+                        <div class="card-glow"></div>
+                    </div>
+
+                    <!-- Special Themes -->
+                    <div class="carousel-card tilt-card reveal-fade-up delay-3">
+                        <div class="carousel-card-inner">
+                            <div class="card-icon">✨</div>
+                            <h3>Special Themes</h3>
+                            <p>Bold, creative concepts tailored to your partner's hobbies.</p>
+                            <ul class="service-list">
+                                <li>Flash Mob Choreography</li>
+                                <li>Museum or Gallery Bookings</li>
+                                <li>Helicopter Ride Proposals</li>
+                                <li>Custom Scavenger Hunts</li>
+                                <li>Private Cinema Screenings</li>
+                                <li>Destination Proposals</li>
+                            </ul>
+                        </div>
+                        <div class="card-glow"></div>
+                    </div>
+                </div>
+
+                <div class="carousel-nav">
+                    <button class="carousel-nav-btn carousel-prev" aria-label="Previous">←</button>
+                    <button class="carousel-nav-btn carousel-next" aria-label="Next">→</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Popular Themes (Pill Cloud) -->
+    <section class="themes-section">
+        <div class="container">
+            <div class="section-header center reveal-fade-up">
+                <h4 class="section-subtitle">Trending</h4>
+                <h2 class="section-title">Popular Proposal Ideas</h2>
+            </div>
+            <div class="themes-cloud stagger-children">
+                <div class="theme-pill reveal-fade-up"><span class="pill-icon">🕯️</span> Candlelit Dinner</div>
+                <div class="theme-pill reveal-fade-up"><span class="pill-icon">🌅</span> Beach Sunset</div>
+                <div class="theme-pill reveal-fade-up"><span class="pill-icon">✨</span> Rooftop Stars</div>
+                <div class="theme-pill reveal-fade-up"><span class="pill-icon">🌸</span> Garden Path</div>
+                <div class="theme-pill reveal-fade-up"><span class="pill-icon">⛵</span> Private Yacht</div>
+                <div class="theme-pill reveal-fade-up"><span class="pill-icon">🗺️</span> Scavenger Hunt</div>
+                <div class="theme-pill reveal-fade-up"><span class="pill-icon">🎬</span> Cinema Hall</div>
+                <div class="theme-pill reveal-fade-up"><span class="pill-icon">🕺</span> Flash Mob</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery -->
+    <section class="page-gallery section-padding">
+        <div class="container">
+            <div class="section-header center reveal-fade-up">
+                <h4 class="section-subtitle">Visual Heritage</h4>
+                <h2 class="section-title">Proposal Gallery</h2>
+            </div>
+            <div class="gallery-grid">
+                <div class="gallery-item reveal-scale-in">
+                    <img src="assets/proposal_gallery1.png" alt="Rooftop Proposal Setup">
+                    <div class="gallery-overlay">
+                        <h4>Under the Stars</h4>
+                        <span>Rooftop Proposal</span>
+                    </div>
+                </div>
+                <div class="gallery-item reveal-scale-in delay-1">
+                    <img src="assets/proposal_gallery2.png" alt="Beach Proposal Setup">
+                    <div class="gallery-overlay">
+                        <h4>Seaside Sunset</h4>
+                        <span>Beach Proposal</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Lightbox -->
+    <div class="lightbox" id="lightbox">
+        <button class="lightbox-close" aria-label="Close">✕</button>
+        <img src="" alt="Gallery Image">
+    </div>
+
+    <!-- Testimonials -->
+    <section class="page-testimonials">
+        <div class="container">
+            <div class="section-header center reveal-fade-up">
+                <h4 class="section-subtitle">Client Stories</h4>
+                <h2 class="section-title">Words of Elegance</h2>
+            </div>
+
+            <div class="testimonial-container reveal-fade-up delay-1">
+                <div class="testimonial-track" id="testimonialTrack">
+                    <div class="testimonial-slide active">
+                        <div class="glass-card floating-anim">
+                            <div class="quote-icon">"</div>
+                            <p class="testimonial-text">ZANDSE organized a beachfront proposal that took my fiancée's breath away. The violin playing, the fairy lights, the food... it was absolutely magical!</p>
+                            <div class="testimonial-author">
+                                <h4>Rohan & Neha</h4>
+                                <span>Beach Sunset Setup</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-slide">
+                        <div class="glass-card floating-anim">
+                            <div class="quote-icon">"</div>
+                            <p class="testimonial-text">They booked a private rooftop and decorated it with thousands of candles. It was exactly what she wanted, and the photos are out of this world!</p>
+                            <div class="testimonial-author">
+                                <h4>Karan & Divya</h4>
+                                <span>Rooftop Canopy Under the Stars</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-slide">
+                        <div class="glass-card floating-anim">
+                            <div class="quote-icon">"</div>
+                            <p class="testimonial-text">From planning to execution, ZANDSE was discreet and professional. The scavenger hunt proposal was executed flawlessly and completely caught her by surprise.</p>
+                            <div class="testimonial-author">
+                                <h4>Aditya & Sneha</h4>
+                                <span>Custom Scavenger Hunt</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="slider-controls">
+                    <button class="slide-btn prev-btn" id="prevSlide">←</button>
+                    <div class="slide-dots">
+                        <span class="dot active" data-index="0"></span>
+                        <span class="dot" data-index="1"></span>
+                        <span class="dot" data-index="2"></span>
+                    </div>
+                    <button class="slide-btn next-btn" id="nextSlide">→</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Packages -->
+    <section class="packages-section section-padding">
+        <div class="container">
+            <div class="section-header center reveal-fade-up">
+                <h4 class="section-subtitle">Pricing</h4>
+                <h2 class="section-title">Proposal Packages</h2>
+            </div>
+
+            <div class="packages-grid">
+                <!-- Basic -->
+                <div class="package-card tilt-card reveal-fade-up">
+                    <div class="package-name">Basic</div>
+                    <div class="package-price"><span class="currency">₹</span>30,000</div>
+                    <div class="package-note">Starting price · Intimate setup</div>
+                    <ul class="package-features">
+                        <li>Standard Arch & Backdrop</li>
+                        <li>Fairy Lights & Lanterns</li>
+                        <li>Marquee "MARRY ME" Letters</li>
+                        <li>Ambient Music Sound system</li>
+                        <li>2-Hour On-site Coordination</li>
+                    </ul>
+                    <a href="#contact" class="btn-outline magnetic-el">Get Started</a>
+                </div>
+
+                <!-- Premium (Featured) -->
+                <div class="package-card featured tilt-card reveal-fade-up delay-1">
+                    <div class="package-name">Premium</div>
+                    <div class="package-price"><span class="currency">₹</span>90,000</div>
+                    <div class="package-note">Most popular · Custom design</div>
+                    <ul class="package-features">
+                        <li>Bespoke Beach / Garden Setup</li>
+                        <li>Custom Floral Installation</li>
+                        <li>Professional Photographer</li>
+                        <li>Live Violinist / Musician</li>
+                        <li>Champagne & Gourmet Picnic</li>
+                        <li>Full-Day Planning & Coordination</li>
+                    </ul>
+                    <a href="#contact" class="btn-primary magnetic-el"><span>Choose Premium</span></a>
+                </div>
+
+                <!-- Luxury -->
+                <div class="package-card tilt-card reveal-fade-up delay-2">
+                    <div class="package-name">Luxury</div>
+                    <div class="package-price"><span class="currency">₹</span>1,80,000</div>
+                    <div class="package-note">Ultimate romance · Premium venue</div>
+                    <ul class="package-features">
+                        <li>Everything in Premium</li>
+                        <li>Private Yacht / Rooftop Booking</li>
+                        <li>Personalized Gourmet Chef Dinner</li>
+                        <li>Cinematic Drone & Highlight Video</li>
+                        <li>Bespoke Gift & Floral Curation</li>
+                        <li>VIP Concierge Assistance</li>
+                    </ul>
+                    <a href="#contact" class="btn-outline magnetic-el">Go Luxury</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="faq-section">
+        <div class="container">
+            <div class="section-header center reveal-fade-up">
+                <h4 class="section-subtitle">Questions</h4>
+                <h2 class="section-title">Frequently Asked</h2>
+            </div>
+
+            <div class="faq-list">
+                <div class="faq-item reveal-fade-up">
+                    <button class="faq-question">
+                        Can you keep the planning a secret?
+                        <span class="faq-chevron">▼</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Absolutely! We maintain strict privacy and coordinate with you through your preferred, discreet channel (WhatsApp, email, or a phone call at specified times) so your partner never suspects a thing.</p>
+                    </div>
+                </div>
+                <div class="faq-item reveal-fade-up delay-1">
+                    <button class="faq-question">
+                        How do you handle bad weather for outdoor setups?
+                        <span class="faq-chevron">▼</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>We always plan a secondary indoor backup option at the same venue or nearby, or work with you to adjust the schedule to a backup date if the forecast indicates rain or strong winds.</p>
+                    </div>
+                </div>
+                <div class="faq-item reveal-fade-up delay-2">
+                    <button class="faq-question">
+                        Do you assist in choosing a venue or location?
+                        <span class="faq-chevron">▼</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Yes, we have established partnerships with premium beachfront properties, boutique resorts, private rooftops, and luxury yacht charters in and around Chennai. We help you book the perfect backdrop.</p>
+                    </div>
+                </div>
+                <div class="faq-item reveal-fade-up delay-3">
+                    <button class="faq-question">
+                        Can you arrange custom elements like live musicians?
+                        <span class="faq-chevron">▼</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Definitely. We coordinate live violinists, acoustic guitarists, saxophonists, or even custom audio track playback. Any detail that is special to your relationship can be integrated into the moment.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="page-contact contact section-padding">
+        <div class="container container-split">
+            <div class="contact-info reveal-slide-in">
+                <h4 class="section-subtitle">Reach Out</h4>
+                <h2 class="section-title">Plan Your Proposal</h2>
+                <p class="section-desc">Connect with our luxury consultants to discuss your vision, preferred setup style, and date availability.</p>
+
+                <div class="contact-details">
+                    <div class="contact-item">
+                        <span class="contact-icon">📍</span>
+                        <p>Chennai, Tamil Nadu</p>
+                    </div>
+                    <div class="contact-item">
+                        <span class="contact-icon">📞</span>
+                        <p>+91 97918 67356</p>
+                    </div>
+                    <div class="contact-item">
+                        <span class="contact-icon">✉️</span>
+                        <p>alcaswork2k25@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contact-form-wrapper reveal-slide-in delay-2">
+                <form id="contactForm" class="premium-form">
+                    <div class="form-group">
+                        <input type="text" id="name" class="form-control" required>
+                        <label for="name" class="floating-label">Full Name</label>
+                        <div class="form-line"></div>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" class="form-control" required>
+                        <label for="email" class="floating-label">Email Address</label>
+                        <div class="form-line"></div>
+                    </div>
+                    <div class="form-group">
+                        <select id="eventType" class="form-control" required>
+                            <option value="" disabled selected></option>
+                            <option value="candlelight">Candlelight Proposal</option>
+                            <option value="beach">Beach Sunset Setup</option>
+                            <option value="rooftop">Rooftop Under Stars</option>
+                            <option value="special">Special Custom Theme</option>
+                        </select>
+                        <label for="eventType" class="floating-label select-label">Setup Preference</label>
+                        <div class="form-line"></div>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" class="form-control" rows="4" required></textarea>
+                        <label for="message" class="floating-label">Your Vision</label>
+                        <div class="form-line"></div>
+                    </div>
+                    <button type="submit" class="btn-primary full-width submit-btn">
+                        <span>Send Inquiry</span>
+                    </button>
+                    <div class="form-message" id="formMessage"></div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <canvas id="footerParticleCanvas"></canvas>
+        <div class="container">
+            <div class="footer-top">
+                <div class="footer-brand">
+                    <h2 class="logo-font glint-text">ZANDSE</h2>
+                    <p>Curators of luxury, unforgettable moments, and purely emotional experiences.</p>
+                </div>
+                <div class="footer-links">
+                    <h3>Explore</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="birthday.html">Birthdays</a></li>
+                        <li><a href="proposal.html">Proposals</a></li>
+                        <li><a href="babyshower.html">Baby Showers</a></li>
+                        <li><a href="reunion.html">Reunions</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h3>Connect</h3>
+                    <div class="social-icons">
+                        <a href="#" class="social-icon">In</a>
+                        <a href="#" class="social-icon">Fb</a>
+                        <a href="#" class="social-icon">Ig</a>
+                        <a href="#" class="social-icon">X</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 ZANDSE Luxury Events. All Rights Reserved.</p>
+                <div class="footer-legal">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="pages.js"></script>
+</body>
+</html>

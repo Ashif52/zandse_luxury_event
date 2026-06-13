@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reunions & Gatherings | ZANDSE Luxury Events</title>
+    <meta name="description" content="ZANDSE designs, plans, and hosts memorable school/college alumni reunions, family gatherings, and corporate reunions. Cinematic styling and flawless event coordination in Chennai.">
+    <meta name="keywords" content="alumni reunion planner, school reunion Chennai, family gathering organizer, corporate reunion events">
+    <meta name="author" content="ZANDSE">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.zandse.com/reunion.html">
+    <meta property="og:title" content="Reunions & Gatherings | ZANDSE Luxury Events">
+    <meta property="og:description" content="ZANDSE designs, plans, and hosts memorable school/college alumni reunions, family gatherings, and corporate reunions. Cinematic styling and flawless event coordination in Chennai.">
+    <meta property="og:image" content="https://www.zandse.com/assets/reunion_hero.png">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://www.zandse.com/reunion.html">
+    <meta property="twitter:title" content="Reunions & Gatherings | ZANDSE Luxury Events">
+    <meta property="twitter:description" content="ZANDSE designs, plans, and hosts memorable school/college alumni reunions, family gatherings, and corporate reunions. Cinematic styling and flawless event coordination in Chennai.">
+    <meta property="twitter:image" content="https://www.zandse.com/assets/reunion_hero.png">
+
+    <!-- Structured Data (Service) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Reunion Event Planning",
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "ZANDSE Luxury Events",
+        "url": "https://www.zandse.com/"
+      },
+      "areaServed": "Chennai, Tamil Nadu, India",
+      "description": "Premium planning for school/college alumni reunions, family clan gatherings, and corporate reunions with memory lane walls, retro DJs, and custom souvenirs."
+    }
+    </script>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="pages.css">
+</head>
+<body>
+
+    <!-- Preloader -->
+    <div id="preloader">
+        <div class="preloader-content">
+            <div class="logo-font glint-text">ZANDSE</div>
+            <div class="loading-bar">
+                <div class="loading-progress"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Custom Cursor -->
+    <div class="custom-cursor"></div>
+    <div class="custom-cursor-follower"></div>
+
+    <!-- Scroll Progress -->
+    <div class="scroll-progress-container">
+        <div class="scroll-progress-bar" id="scrollProgress"></div>
+    </div>
+
+    <!-- Navbar -->
+    <nav id="navbar" class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo logo-font">ZANDSE</a>
+            <ul class="nav-links">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="index.html#about" class="nav-link">About</a></li>
+                <li class="dropdown">
+                    <a href="index.html#services" class="nav-link">Services</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="birthday.html">Birthdays</a></li>
+                        <li><a href="proposal.html">Proposals</a></li>
+                        <li><a href="babyshower.html">Baby Showers</a></li>
+                        <li><a href="reunion.html">Reunions</a></li>
+                    </ul>
+                </li>
+                <li><a href="index.html#portfolio" class="nav-link">Portfolio</a></li>
+                <li><a href="#contact" class="btn-outline nav-cta">Let's Talk</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu">
+        <ul class="mobile-nav-links">
+            <li><a href="index.html" class="mobile-link">Home</a></li>
+            <li><a href="index.html#about" class="mobile-link">About</a></li>
+            <li><a href="index.html#services" class="mobile-link">Services</a></li>
+            <li><a href="index.html#portfolio" class="mobile-link">Portfolio</a></li>
+            <li><a href="#contact" class="mobile-link">Contact</a></li>
+        </ul>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="page-hero">
+        <div class="page-hero-bg" style="background-image: url('assets/reunion_hero.png');" data-speed="0.3"></div>
+        <div class="page-hero-overlay"></div>
+        <canvas id="particleCanvas"></canvas>
+
+        <div class="page-hero-content">
+            <span class="hero-tag">Reunion Events</span>
+            <h1 class="hero-title split-text" data-text="Reconnect, Celebrate & Create Memories">Reconnect, Celebrate & Create Memories</h1>
+            <p class="hero-subtitle">Whether a school batch, a massive family clan, or corporate alumni, we design spectacular reunions that bridge the years.</p>
+            <div class="hero-buttons">
+                <a href="#contact" class="btn-primary magnetic-el"><span>Plan Your Reunion</span></a>
+                <a href="#services" class="btn-outline magnetic-el">Explore Categories</a>
+            </div>
+        </div>
+
+        <div class="scroll-indicator">
+            <span class="scroll-text">Scroll to Discover</span>
+            <div class="scroll-line"></div>
+        </div>
+    </section>
+
+    <!-- Stats Strip -->
+    <section class="stats-strip">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-item reveal-fade-up">
+                    <div class="stat-number" data-count="150" data-suffix="+">0</div>
+                    <div class="stat-label">Reunions Hosted</div>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat-item reveal-fade-up delay-1">
+                    <div class="stat-number" data-count="100" data-suffix="%">0</div>
+                    <div class="stat-label">Nostalgia Recalled</div>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat-item reveal-fade-up delay-2">
+                    <div class="stat-number" data-count="10" data-suffix="+">0</div>
+                    <div class="stat-label">Nostalgic Themes</div>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat-item reveal-fade-up delay-3">
+                    <div class="stat-number" data-count="7" data-suffix="+">0</div>
+                    <div class="stat-label">Years Experience</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="page-about about section-padding">
+        <div class="container container-split">
+            <div class="about-text">
+                <h4 class="section-subtitle reveal-slide-in">The Reunion Experience</h4>
+                <h2 class="section-title reveal-slide-in delay-1">Where Past Meets Present</h2>
+                <p class="section-desc reveal-slide-in delay-2">Reuniting with old friends or family is a celebration of shared histories. We craft warm, engaging, and high-energy atmospheres that make conversations flow and old bonds grow stronger.</p>
+                <p class="section-desc reveal-slide-in delay-3">From locating the perfect nostalgic venue to curating memory lanes and throwback slide projections, we handle the logistics so you can focus entirely on catching up.</p>
+                <a href="#contact" class="btn-text reveal-slide-in delay-4">Start Planning <span class="arrow">→</span></a>
+            </div>
+            <div class="about-image-wrapper reveal-mask">
+                <img src="assets/reunion_gallery1.png" alt="Reunion Gala Setup" class="about-img floating-anim">
+                <div class="gold-border-decor"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us -->
+    <section class="page-why-us">
+        <div class="container">
+            <div class="section-header center reveal-fade-up">
+                <h4 class="section-subtitle">Why ZANDSE</h4>
+                <h2 class="section-title">The Nostalgic Spark</h2>
+            </div>
+            <div class="why-us-grid stagger-children">
+                <div class="why-item reveal-fade-up">
+                    <div class="why-icon">🎨</div>
+                    <h3>Custom Themes</h3>
+                    <p>Retro vibes, throwback yearbook styles, or elegant family trees customized for your group.</p>
+                </div>
+                <div class="why-item reveal-fade-up">
+                    <div class="why-icon">🖼️</div>
+                    <h3>Throwback Décor</h3>
+                    <p>Exquisite memory walls, photo displays of old yearbook pictures, and nostalgic memorabilia.</p>
+                </div>
+                <div class="why-item reveal-fade-up">
+                    <div class="why-icon">🍲</div>
+                    <h3>Curated Catering</h3>
+                    <p>Lavish buffet spreads, theme bars, and interactive live food counters representing global tastes.</p>
+                </div>
+                <div class="why-item reveal-fade-up">
+                    <div class="why-icon">🎵</div>
+                    <h3>Entertainment</h3>
+                    <p>DJs spinning retro classics, video slide projections, live bands, and experienced hosts.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Carousel -->
+    <section id="services" class="services-carousel-section section-padding">
+        <div class="container">
+            <div class="section-header center reveal-fade-up">
+                <h4 class="section-subtitle">Our Expertise</h4>
+                <h2 class="section-title">Reunion Categories</h2>
+            </div>
+
+            <div class="carousel-wrapper">
+                <div class="services-carousel">
+                    <!-- School & College Alumni -->
+                    <div class="carousel-card tilt-card reveal-fade-up">
+                        <div class="carousel-card-inner">
+                            <div class="card-icon">🏫</div>
+                            <h3>Alumni Reunions</h3>
+                            <p>Bring school or college batches together to relive the golden days.</p>
+                            <ul class="service-list">
+                                <li>Yearbook Photo Walls</li>
+                                <li>Customized Souvenir Displays</li>
+                                <li>Retro DJ & Dance Floor Setup</li>
+                                <li>Nostalgic Slide Presentation</li>
+                                <li>Batch T-Shirt & Kit Design</li>
+                                <li>interactive Batch Trivia Host</li>
+                            </ul>
+                        </div>
+                        <div class="card-glow"></div>
+                    </div>
+
+                    <!-- Family Clan Reunions -->
+                    <div class="carousel-card tilt-card reveal-fade-up delay-1">
+                        <div class="carousel-card-inner">
+                            <div class="card-icon">👨‍👩‍👧‍👦</div>
+                            <h3>Family Clan Gatherings</h3>
+                            <p>Celebrate lineage with multi-generational outdoor fun.</p>
+                            <ul class="service-list">
+                                <li>Interactive Family Tree Board</li>
+                                <li>Fun Multi-Gen Team Games</li>
+                                <li>Children's Activity Play Zones</li>
+                                <li>Professional Group Portrait sessions</li>
+                                <li>Lawn Barbecue & Food Counters</li>
+                                <li>Memory Keepsake Booklets</li>
+                            </ul>
+                        </div>
+                        <div class="card-glow"></div>
+                    </div>
+
+                    <!-- Corporate Alumni -->
+                    <div class="carousel-card tilt-card reveal-fade-up delay-2">
+                        <div class="carousel-card-inner">
+                            <div class="card-icon">🏢</div>
+                            <h3>Corporate Alumni</h3>
+                            <p>Keep networking alive in sophisticated business settings.</p>
+                            <ul class="service-list">
+                                <li>Corporate Brand Color Decors</li>
+                                <li>Elegant Cocktail Lounge Sections</li>
+                                <li>High-Tech AV & Presentation Tech</li>
+                                <li>Keynote Stage & Lighting Design</li>
+                                <li>Curated Gourmet Dining Services</li>
+                                <li>Interactive Panel Discussion Stage</li>
+                            </ul>
+                        </div>
+                        <div class="card-glow"></div>
+                    </div>
+                </div>
+
+                <div class="carousel-nav">
+                    <button class="carousel-nav-btn carousel-prev" aria-label="Previous">←</button>
+                    <button class="carousel-nav-btn carousel-next" aria-label="Next">→</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Popular Themes (Pill Cloud) -->
+    <section class="themes-section">
+        <div class="container">
+            <div class="section-header center reveal-fade-up">
+                <h4 class="section-subtitle">Features</h4>
+                <h2 class="section-title">Special Reunion Highlights</h2>
+            </div>
+            <div class="themes-cloud stagger-children">
+                <div class="theme-pill reveal-fade-up"><span class="pill-icon">📸</span> Memory Lane</div>
+                <div class="theme-pill reveal-fade-up"><span class="pill-icon">🎧</span> Retro DJ</div>
+                <div class="theme-pill reveal-fade-up"><span class="pill-icon">📖</span> Class Yearbook</div>
+                <div class="theme-pill reveal-fade-up"><span class="pill-icon">❓</span> Family Trivia</div>
+                <div class="theme-pill reveal-fade-up"><span class="pill-icon">📽️</span> Slideshow Night</div>
+                <div class="theme-pill reveal-fade-up"><span class="pill-icon">🎸</span> Live Band</div>
+                <div class="theme-pill reveal-fade-up"><span class="pill-icon">🎭</span> Photo Booth</div>
+                <div class="theme-pill reveal-fade-up"><span class="pill-icon">🌳</span> Outdoor Lawn Party</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery -->
+    <section class="page-gallery section-padding">
+        <div class="container">
+            <div class="section-header center reveal-fade-up">
+                <h4 class="section-subtitle">Visual Heritage</h4>
+                <h2 class="section-title">Reunion Gallery</h2>
+            </div>
+            <div class="gallery-grid">
+                <div class="gallery-item reveal-scale-in">
+                    <img src="assets/reunion_gallery1.png" alt="Alumni Reunion Setup">
+                    <div class="gallery-overlay">
+                        <h4>Alumni Gala</h4>
+                        <span>College Reunion</span>
+                    </div>
+                </div>
+                <div class="gallery-item reveal-scale-in delay-1">
+                    <img src="assets/reunion_gallery2.png" alt="Family Reunion Setup">
+                    <div class="gallery-overlay">
+                        <h4>Family Roots</h4>
+                        <span>Grand Family Reunion</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Lightbox -->
+    <div class="lightbox" id="lightbox">
+        <button class="lightbox-close" aria-label="Close">✕</button>
+        <img src="" alt="Gallery Image">
+    </div>
+
+    <!-- Testimonials -->
+    <section class="page-testimonials">
+        <div class="container">
+            <div class="section-header center reveal-fade-up">
+                <h4 class="section-subtitle">Client Stories</h4>
+                <h2 class="section-title">Words of Elegance</h2>
+            </div>
+
+            <div class="testimonial-container reveal-fade-up delay-1">
+                <div class="testimonial-track" id="testimonialTrack">
+                    <div class="testimonial-slide active">
+                        <div class="glass-card floating-anim">
+                            <div class="quote-icon">"</div>
+                            <p class="testimonial-text">We had our 20-year school reunion. The memory wall with old class pictures brought tears to everyone's eyes. Absolute masterclass by ZANDSE!</p>
+                            <div class="testimonial-author">
+                                <h4>Rahul & Batch of '06</h4>
+                                <span>20-Year School Reunion</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-slide">
+                        <div class="glass-card floating-anim">
+                            <div class="quote-icon">"</div>
+                            <p class="testimonial-text">Organizing a reunion for 150 family members from across the globe seemed impossible until we hired ZANDSE. Every segment was coordinated flawlessly!</p>
+                            <div class="testimonial-author">
+                                <h4>The Sundaram Clan</h4>
+                                <span>Grand Family Reunion</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-slide">
+                        <div class="glass-card floating-anim">
+                            <div class="quote-icon">"</div>
+                            <p class="testimonial-text">The DJ, the nostalgia presentation, and the live food counters kept the energy high all night. Hands down the best reunion we've ever had.</p>
+                            <div class="testimonial-author">
+                                <h4>Preethi Shekhar</h4>
+                                <span>Alumni Gala Event</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="slider-controls">
+                    <button class="slide-btn prev-btn" id="prevSlide">←</button>
+                    <div class="slide-dots">
+                        <span class="dot active" data-index="0"></span>
+                        <span class="dot" data-index="1"></span>
+                        <span class="dot" data-index="2"></span>
+                    </div>
+                    <button class="slide-btn next-btn" id="nextSlide">→</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Packages -->
+    <section class="packages-section section-padding">
+        <div class="container">
+            <div class="section-header center reveal-fade-up">
+                <h4 class="section-subtitle">Pricing</h4>
+                <h2 class="section-title">Reunion Packages</h2>
+            </div>
+
+            <div class="packages-grid">
+                <!-- Basic -->
+                <div class="package-card tilt-card reveal-fade-up">
+                    <div class="package-name">Basic</div>
+                    <div class="package-price"><span class="currency">₹</span>40,000</div>
+                    <div class="package-note">Starting price · Up to 50 guests</div>
+                    <ul class="package-features">
+                        <li>Basic Welcome Entrance Gate</li>
+                        <li>Yearbook/Theme Backdrop</li>
+                        <li>AV Projector Setup for Slideshow</li>
+                        <li>Ambient Sound System</li>
+                        <li>4-Hour On-site Coordination</li>
+                    </ul>
+                    <a href="#contact" class="btn-outline magnetic-el">Get Started</a>
+                </div>
+
+                <!-- Premium (Featured) -->
+                <div class="package-card featured tilt-card reveal-fade-up delay-1">
+                    <div class="package-name">Premium</div>
+                    <div class="package-price"><span class="currency">₹</span>95,000</div>
+                    <div class="package-note">Most popular · Up to 150 guests</div>
+                    <ul class="package-features">
+                        <li>Bespoke Themed Photobooth</li>
+                        <li>Professional Sound & DJ</li>
+                        <li>Custom Memory Lane Photo Wall</li>
+                        <li>Dedicated Event Photographer</li>
+                        <li>High-Definition AV Setup</li>
+                        <li>Full-Day Event Coordination</li>
+                    </ul>
+                    <a href="#contact" class="btn-primary magnetic-el"><span>Choose Premium</span></a>
+                </div>
+
+                <!-- Luxury -->
+                <div class="package-card tilt-card reveal-fade-up delay-2">
+                    <div class="package-name">Luxury</div>
+                    <div class="package-price"><span class="currency">₹</span>1,90,000</div>
+                    <div class="package-note">Ultimate gathering · Unlimited guests</div>
+                    <ul class="package-features">
+                        <li>Everything in Premium</li>
+                        <li>Lawn / Resort Booking Management</li>
+                        <li>Live Band / Entertainment Crew</li>
+                        <li>Cinematic Drone & Highlight Reel</li>
+                        <li>Personalized Alumni Souvenirs</li>
+                        <li>End-to-End Guest RSVP Management</li>
+                    </ul>
+                    <a href="#contact" class="btn-outline magnetic-el">Go Luxury</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="faq-section">
+        <div class="container">
+            <div class="section-header center reveal-fade-up">
+                <h4 class="section-subtitle">Questions</h4>
+                <h2 class="section-title">Frequently Asked</h2>
+            </div>
+
+            <div class="faq-list">
+                <div class="faq-item reveal-fade-up">
+                    <button class="faq-question">
+                        Can you help locate a venue suitable for large groups?
+                        <span class="faq-chevron">▼</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Yes, we scout, recommend, and coordinate bookings with premium lawns, scenic resorts (along ECR), and luxury banquet halls in Chennai based on your estimated guest count.</p>
+                    </div>
+                </div>
+                <div class="faq-item reveal-fade-up delay-1">
+                    <button class="faq-question">
+                        Do you provide audio-visual setups for presentations or slideshows?
+                        <span class="faq-chevron">▼</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Absolutely. All our packages include audio-visual options ranging from basic projector setups to high-resolution LED screens, wireless microphones, and premium sound systems.</p>
+                    </div>
+                </div>
+                <div class="faq-item reveal-fade-up delay-2">
+                    <button class="faq-question">
+                        Can you handle multi-day reunion itineraries?
+                        <span class="faq-chevron">▼</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Yes! We can orchestrate multi-day schedules including welcome dinners, daytime sports/games, and final formal gala nights, keeping the itinerary coordinated and seamless.</p>
+                    </div>
+                </div>
+                <div class="faq-item reveal-fade-up delay-3">
+                    <button class="faq-question">
+                        Do you design custom memorabilia or souvenirs?
+                        <span class="faq-chevron">▼</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Yes, we design and produce custom-printed yearbooks, alumni t-shirts, commemorative keychains, notebooks, and other customizable souvenirs matching your reunion theme.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="page-contact contact section-padding">
+        <div class="container container-split">
+            <div class="contact-info reveal-slide-in">
+                <h4 class="section-subtitle">Reach Out</h4>
+                <h2 class="section-title">Plan Your Reunion</h2>
+                <p class="section-desc">Connect with our luxury consultants to discuss your vision, group size, and date availability.</p>
+
+                <div class="contact-details">
+                    <div class="contact-item">
+                        <span class="contact-icon">📍</span>
+                        <p>Chennai, Tamil Nadu</p>
+                    </div>
+                    <div class="contact-item">
+                        <span class="contact-icon">📞</span>
+                        <p>+91 97918 67356</p>
+                    </div>
+                    <div class="contact-item">
+                        <span class="contact-icon">✉️</span>
+                        <p>alcaswork2k25@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contact-form-wrapper reveal-slide-in delay-2">
+                <form id="contactForm" class="premium-form">
+                    <div class="form-group">
+                        <input type="text" id="name" class="form-control" required>
+                        <label for="name" class="floating-label">Full Name</label>
+                        <div class="form-line"></div>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" class="form-control" required>
+                        <label for="email" class="floating-label">Email Address</label>
+                        <div class="form-line"></div>
+                    </div>
+                    <div class="form-group">
+                        <select id="eventType" class="form-control" required>
+                            <option value="" disabled selected></option>
+                            <option value="alumni">School & College Alumni</option>
+                            <option value="family">Family Clan Reunion</option>
+                            <option value="corporate">Corporate Reunion</option>
+                        </select>
+                        <label for="eventType" class="floating-label select-label">Reunion Type</label>
+                        <div class="form-line"></div>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" class="form-control" rows="4" required></textarea>
+                        <label for="message" class="floating-label">Your Vision</label>
+                        <div class="form-line"></div>
+                    </div>
+                    <button type="submit" class="btn-primary full-width submit-btn">
+                        <span>Send Inquiry</span>
+                    </button>
+                    <div class="form-message" id="formMessage"></div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <canvas id="footerParticleCanvas"></canvas>
+        <div class="container">
+            <div class="footer-top">
+                <div class="footer-brand">
+                    <h2 class="logo-font glint-text">ZANDSE</h2>
+                    <p>Curators of luxury, unforgettable moments, and purely emotional experiences.</p>
+                </div>
+                <div class="footer-links">
+                    <h3>Explore</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="birthday.html">Birthdays</a></li>
+                        <li><a href="proposal.html">Proposals</a></li>
+                        <li><a href="babyshower.html">Baby Showers</a></li>
+                        <li><a href="reunion.html">Reunions</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h3>Connect</h3>
+                    <div class="social-icons">
+                        <a href="#" class="social-icon">In</a>
+                        <a href="#" class="social-icon">Fb</a>
+                        <a href="#" class="social-icon">Ig</a>
+                        <a href="#" class="social-icon">X</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 ZANDSE Luxury Events. All Rights Reserved.</p>
+                <div class="footer-legal">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="pages.js"></script>
+</body>
+</html>
