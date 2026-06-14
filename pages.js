@@ -164,16 +164,29 @@ document.addEventListener('DOMContentLoaded', () => {
 
             // Handle text with gold-word spans
             const original = el.getAttribute('data-text') || text;
+            const words = original.split(' ');
             let charIndex = 0;
 
-            for (let i = 0; i < original.length; i++) {
-                const span = document.createElement('span');
-                span.classList.add('char');
-                span.textContent = original[i] === ' ' ? '\u00A0' : original[i];
-                span.style.transitionDelay = `${charIndex * 0.03}s`;
-                el.appendChild(span);
-                charIndex++;
-            }
+            words.forEach((wordText, wordIdx) => {
+                const wordSpan = document.createElement('span');
+                wordSpan.classList.add('word');
+
+                for (let i = 0; i < wordText.length; i++) {
+                    const charSpan = document.createElement('span');
+                    charSpan.classList.add('char');
+                    charSpan.textContent = wordText[i];
+                    charSpan.style.transitionDelay = `${charIndex * 0.03}s`;
+                    wordSpan.appendChild(charSpan);
+                    charIndex++;
+                }
+
+                el.appendChild(wordSpan);
+
+                // Add a regular space between words so they wrap naturally
+                if (wordIdx < words.length - 1) {
+                    el.appendChild(document.createTextNode(' '));
+                }
+            });
 
             // Trigger animation after small delay
             setTimeout(() => {

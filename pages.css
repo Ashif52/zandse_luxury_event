@@ -109,6 +109,11 @@
 }
 
 /* Split-text animation */
+.split-text .word {
+    display: inline-block;
+    white-space: nowrap;
+}
+
 .split-text .char {
     display: inline-block;
     opacity: 0;
